@@ -1,0 +1,46 @@
+database:
+  apiCall:
+    endpointIdentifier:
+      name: Image Interpretation
+      key: icsk7
+    variables:
+      - variableIdentifier:
+          name: PROMPT
+          key: nix5s23n
+        variable:
+          source: WIDGET_STATE
+          baseVariable:
+            widgetState:
+              returnParameter:
+                allowedDestinationTypes:
+                  - Integer
+                  - Double
+                  - Boolean
+                  - ImagePath
+                  - VideoPath
+                  - AudioPath
+                dataType:
+                  scalarType: String
+          nodeKeyRef:
+            key: TextField_ynnrl1sg
+      - variableIdentifier:
+          name: ULR_IMG
+          key: bknl52y1
+        variable:
+          source: WIDGET_STATE
+          baseVariable:
+            widgetState:
+              returnParameter:
+                allowedDestinationTypes:
+                  - Integer
+                  - Double
+                  - Boolean
+                  - ImagePath
+                  - VideoPath
+                  - AudioPath
+                dataType:
+                  scalarType: String
+          nodeKeyRef:
+            key: TextField_xo7pim6m
+outputVariableName: apiResult6hc
+key: t8f5hr08

@@ -1,0 +1,39 @@
+key: Text_gb2zvl2r
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      variable:
+        source: ACTION_OUTPUTS
+        defaultValue:
+          serializedValue: Answer
+        baseVariable:
+          actionOutput:
+            outputVariableIdentifier:
+              name: apiResult6hc
+            actionKeyRef:
+              key: t8f5hr08
+        operations:
+          - apiResponseField:
+              responseField: JSON_BODY
+          - predefinedJsonPathOperation:
+              definedPathIdentifier:
+                name: Answer
+                key: xnmdae4x
+        nodeKeyRef:
+          key: Button_k6gtk2vy
+        actionComponentKeyRef: {}
+      mostRecentInputValue: Hello World
+    fontSizeValue:
+      inputValue: 20
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 20
+  alignment:
+    xValue: {}
+name: Answer_Text

@@ -1,0 +1,9 @@
+key: Column_2tp9ah6a
+type: Column
+props:
+  column:
+    primary: true
+    minSizeValue:
+      inputValue: false
+  padding:
+    type: FF_PADDING_ALL

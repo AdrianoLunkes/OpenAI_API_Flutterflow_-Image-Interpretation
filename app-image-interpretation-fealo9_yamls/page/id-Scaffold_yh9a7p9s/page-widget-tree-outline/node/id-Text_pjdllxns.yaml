@@ -1,0 +1,21 @@
+key: Text_pjdllxns
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: Image URL
+    fontSizeValue:
+      inputValue: 16
+    fontWeightValue:
+      inputValue: w900
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 20
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: -1

@@ -1,0 +1,17 @@
+key: Text_el011eul
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    selectable: false
+    textValue:
+      inputValue: Ask a Question
+    fontSizeValue:
+      inputValue: 16
+    fontWeightValue:
+      inputValue: w900
+  alignment:
+    xValue:
+      inputValue: 0
+    yValue:
+      inputValue: 0

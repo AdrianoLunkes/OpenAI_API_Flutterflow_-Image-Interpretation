@@ -1,0 +1,5 @@
+rootFolders:
+  - key: rclxant0
+    name: pages
+widgetClassKeyToFolderKey:
+  Scaffold_yh9a7p9s: rclxant0

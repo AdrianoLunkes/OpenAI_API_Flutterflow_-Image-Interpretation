@@ -1,0 +1,33 @@
+rootAction:
+  key: b5c7uxkr
+  action:
+    key: t8f5hr08
+  followUpAction:
+    key: n4q8pz1w
+    conditionActions:
+      falseAction:
+        key: i4wz912j
+        action:
+          key: clz8k6jf
+      trueActions:
+        - condition:
+            variable:
+              source: ACTION_OUTPUTS
+              baseVariable:
+                actionOutput:
+                  outputVariableIdentifier:
+                    name: apiResult6hc
+                  actionKeyRef:
+                    key: t8f5hr08
+              operations:
+                - apiResponseField:
+                    responseField: SUCCEEDED
+              dynamicComponentAccess: {}
+              nodeKeyRef:
+                key: Button_k6gtk2vy
+          trueAction:
+            key: nyg418j9
+            action:
+              key: agpinua8
+trigger:
+  triggerType: ON_TAP
